@@ -1,0 +1,132 @@
+/* ESTILOS GENERALES */
+* {   font-family: 'Roboto', sans-serif;   }
+   @media screen and (max-width: 576px) {
+     h1 {
+       font-size: 25px;
+     }
+     h3 {
+       font-size: 22px;
+     }
+     h5 {
+       font-size: 18px;
+     }
+     h6, p {
+       font-size: 12px;
+     }
+     .idioma h3 {
+       font-size: 22px;
+     }
+     .idioma h5 {
+       font-size: 18px;
+     }
+   }
+   
+   
+   /* BARRA DE NAVEGACIÓN */
+   .navbar {
+     background-color: rgb(10, 0, 130);
+   }
+   .navbar a, button {
+     color: white;
+     text-align: center;
+   }
+   
+   /* DATOS PERSONALES */
+   .datos-personales {
+     margin: 15px 0;
+   }
+   @media screen and (max-width: 768px) {
+     .datos-personales h1 {
+       margin-top: 15px;
+     }
+   }
+   
+   
+   /* TITULOS */
+   .tema {
+     background-color: rgb(10, 0, 130);
+     min-height: 70px;
+     align-items: center;
+     text-align: center;
+   }
+   .tema h1 {
+     font-size: 30px;
+     color: white;
+     font-weight: bold;
+     margin-bottom: 0;
+   }
+   @media screen and (max-width: 575px) {
+    .tema h1 {
+      font-size: 25px;
+    }
+  }
+   .sub-tema {
+     padding: 10px 0 10px 0;
+     border-bottom: solid 1px #aeaeae
+   }
+   .descripcion {
+     text-align: center;
+   }
+   .texto {
+     padding-top: 10px;
+     text-align: justify;
+   }
+   @media screen and (max-width: 575px) {
+     .escudo img {
+       display: none;
+     }
+   }
+   
+   
+   /* IDIOMAS */
+   .sub-tema i {
+     color: rgb(10, 0, 130);
+   }
+   @media screen and (max-width: 576px) {
+     #idiomas .años {
+       display: none;
+     }
+     #idiomas {
+       text-align: center;
+     }
+   }
+   
+   .estilos button {
+     margin: 5px;
+   }
+   
+   
+   
+   /* FOOTER */
+   footer {
+     background-color: rgb(10, 0, 130);
+   }
+   .titulo-contacto h3 {
+     padding-top: 8px;
+   }
+   .telefono p {
+     margin: 10px;
+   }
+   .contacto .iconos a {
+     font-size: 25px;
+     border: solid 1px white;
+     border-radius: 50%;
+     margin: 5px;
+     padding: 5px 12px;
+     transition: all 0.4s ease-in-out;
+   }
+   .contacto .iconos i {
+     color: white;
+   }
+   .contacto .iconos a:hover {
+     background-color: rgb(78, 72, 145);
+     transition: all 0.2s ease-in;
+   }
+   .iconos-contacto a:hover i {
+     color: rgb(10, 0, 130);
+   }
+   .derechos-de-autor p {
+     margin: 15px 0 0 0;
+     color: #aeaeae;
+     padding-bottom: 8px;
+   }

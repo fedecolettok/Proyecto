@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV</title>
+  
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link id="styles" href="/CSS/styles.css" rel="stylesheet" type="text/css">
+
+  <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="icon" type="image/x-icon" href="/Imagenes/logo.svg">
+
+</head>
+<body>
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-sm bg-body-tertiary bg-gradient" id="inicio">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio"><img src="/Imagenes/logo.svg" alt="Foto perfil" width="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-caret-down-fill"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#educacion">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#idiomas">Idiomas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades IT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#js">JavaScript</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- DATOS PERSONALES -->
+  <section class="datos-personales container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center"><img src="/Imagenes/foto-cv.jpg" alt="fotocv" width="300px"></div>
+      <div class="col text-center datos">
+        <h1>Federico Coletto</h1>
+        <h3>23 años</h3>
+        <h3>Estudiante</h3>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- EDUCACION -->
+  <section id="educacion" class="container-fluid educacion">
+    <div class="row bg-gradient justify-content-center tema"><h1>Educación</h1></div>
+    <div class="row sub-tema align-items-center">
+      <div class="col-sm-6 descripcion">
+        <h3>Secundario</h3>
+        <h5>Técnico Electromecánico</h5> <!--icono escuela italiana-->
+        <h6>Escuela N° 4.122 - República Italiana<br>Tupungato, Mendoza</h6>
+      </div>
+      <div class="col escudo text-center">
+        <img src="/Imagenes/italiana.svg" alt="Foto Escuela Italiana" width="100px">
+      </div>
+    </div>
+    <div class="row sub-tema descripcion align-items-center">
+      <div class="col-sm-6">
+        <h3>Universitario</h3>
+        <h5>Licenciatura en Economía</h5> <!--icono escuela italiana-->
+        <h6>Universidad Nacional de Cuyo<br>Mendoza, Argentina</h6>
+      </div>
+      <div class="col escudo text-center">
+        <img src="/Imagenes/Escudo_uncuyo.jpg" alt="Foto Escuela Italiana" width="100px">
+      </div>
+    </div>
+    <div class="row texto">
+      <p>Me encuentro cursando el 5<sup>to</sup> año de la carrera. He asistitdo a muchas de las charlas e iniciativas iniciadas por las distintas agrupaciones de la facultad, compañeros o la misma Facultad. El año entrante planeo cambiarme a la Universidad del Aconcagua para terminar mis estudios más temprano, al mismo tiempo que estaré realizando cuantos cursos relacionados con la programacion pueda.</p>
+    </div>
+  </section>
+
+
+
+  <!-- EXPERIENCIA -->
+  <section id="experiencia" class="container-fluid experiencia">
+    <div class="row bg-gradient justify-content-center tema"><h1>Experiencia</h1></div>
+    <div class="row sub-tema">
+      <h3>Atención al público</h3>
+      <h6>BOON ROD</h6>
+    </div>
+    <div class="row texto">
+      <p>En diciembre del 2022, gracias al programa ENLAZAR del Gobierno comencé en atención al público en un local de ropa masculina, emprendimiento que tiene dos sucursales en Mendoza. Al poco tiempo aprendí a desenvolverme fácilmente con la gente, lo cual llevó a mis empleadores a confiar en mi persona y a terminar realizando trabajos administrativos y contables.</p>
+      <p>A pesar de haber aprendido rápido a tratar con la gente, mi puesto ideal es trabajar remotamente desde mi computadora, dedicandome a la programación y, en lo posible, en el área de economía de alguna empresa.</p>
+      <p>Considero que me adapto muy fácilmente a nuevos ambientes, y que tengo facilidad para aprender nuevos conceptos y técnicas. El tratar con la gente no es mi fuerte (y algo en lo que mi experiencia me ha facilitado las cosas), sin embargo creo ser una persona sociable.</p>
+    </div>
+  </section>
+
+
+
+  <!-- IDIOMAS -->
+  <section id="idiomas" class="container-fluid idiomas">
+    <div class="row bg-gradient justify-content-center tema"><h1>Idiomas</h1></div>
+    <div class="row sub-tema justify-content-center">
+      <div class="col-5 idioma">
+        <h3>English</h3>
+        <h5>Green Valley Institute</h5>
+      </div>
+      <div class="col-4 nivel">
+        <h4>Nivel C1</h4>
+        <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle"></i>
+      </div>
+      <div class="col-sm-3 años">2010 - 2017</div>
+    </div>
+    <div class="row sub-tema justify-content-center">
+      <div class="row sub-tema justify-content-center" style="border: none; padding-bottom: 0">
+        <div class="col-5 idioma">
+          <h3>Deutsch</h3>
+          <h5>Goethe Zentrum</h5>
+        </div>
+        <div class="col-4 nivel">
+          <h4>Nivel B2</h4>
+          <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle-fill"></i> <i class="bi bi-circle"></i> <i class="bi bi-circle"></i> <i class="bi bi-circle"></i>
+        </div>
+        <div class="col-sm-3 años">2018 - 2021</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCION INTERACTIVA -->
+  <section class="container-fluid javascript">
+    <div class="row bg-gradient justify-content-center tema"><h1>JavaScript</h1></div>
+    <div class="row sub-tema align-items-center estilos">
+      <div class="col-6"><h3>Estilos CSS</h3></div>
+      <div class="col text-center">
+        <button type="button" id="css" class="btn btn-dark">CSS Aplicado: <span id="contador">1</span></button>
+      </div>
+    </div>
+  </section> 
+
+  <section class="container-fluid javascript">
+    <form id="miForm">
+      <div class="row sub-tema justify-content-between">
+        <div class="mb-2">
+          <label for="nmae" class="form-label">Nombre:</label>
+          <input type="text" id="name" name="nombre" class="form-control">
+        </div>
+        <div class="mb-2">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="email" id="email" name="email" class="form-control">
+        </div>
+        <div class="mt-3 text-center">
+          <button type="submit" id="btn-submit" class="btn-success"><span>Enviar</span></button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="text-white contacto">
+    <div class="row text-center titulo-contacto"><h3>Contacto</h3></div>
+    <div class="telefono container-fluid justify-content-center align-items-center d-flex align-items-center">
+      <i class="bi bi-telephone"></i>
+      <p>2612539374</p>
+    </div>
+    <div class="iconos d-flex flex-wrap justify-content-center">
+      <a title="twitter" href="https://twitter.com/fedecolettok" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a title="instagram" href="https://www.instagram.com/fedecoletto_tv/?next=%2F" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a title="linkedin" href="https://www.linkedin.com/in/federico-coletto-3761a6264/ " target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a title="github" href="https://github.com/fedecolettok" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a title="mailto" href="mailto:fedecolettok@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor text-center">
+      <p>Creado por Federico Coletto (2023) &#169;</p>
+    </div>
+  </footer>
+  
+
+
+
+  <script src="/JavaScript/funciones.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
