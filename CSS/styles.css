@@ -78,21 +78,36 @@
 }
 
 
-/* IDIOMAS */
+/* IDIOMAS Y HABILIDADES IT */
 .sub-tema i {
   color: rgb(53, 87, 88);
 }
 @media screen and (max-width: 575px) {
-  #idiomas .años {
+  #idiomas .anos {
+    display: none;
+  }
+  #habilidades .anos {
     display: none;
   }
   #idiomas {
     text-align: center;
   }
+  #habilidades {
+    text-align: center;
+  }
 }
-
+#idiomas .anos {
+  text-align: center;
+}
+#habilidades .anos {
+  text-align: center;
+}
 .estilos button {
   margin: 5px;
+}
+
+.habilidades .progress-bar {
+  background-color: rgb(53, 87, 88);
 }
 
 /* JAVASCRIPT */
